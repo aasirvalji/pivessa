@@ -1,0 +1,40 @@
+name: Pivessa support
+description: Report an issue, suggest a feature, or ask for help.
+title: "[Pivessa] "
+body:
+  - type: markdown
+    attributes:
+      value: "Requests are public. Do not include private wheel contents, passwords, or personal information."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What can we help with?
+      options:
+        - Bug report
+        - How to use Pivessa
+        - Feature suggestion
+        - Privacy question
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your request
+      description: For a bug, include what you expected and what happened.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+      placeholder: "For example: iPhone 16, iOS 26"
+  - type: input
+    id: version
+    attributes:
+      label: Pivessa version
+      placeholder: "For example: 1.0"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Leave out personal information.

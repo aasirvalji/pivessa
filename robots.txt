@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aasirvalji.github.io/pivessa/sitemap.xml
