@@ -7,6 +7,7 @@ No dependencies, build step, analytics, remote fonts, or advertising.
 - Marketing: https://aasirvalji.github.io/pivessa/
 - Support: https://aasirvalji.github.io/pivessa/support/
 - Privacy: https://aasirvalji.github.io/pivessa/privacy/
+- Public support and privacy contact: aasir.valji@hotmail.com
 
 GitHub Pages publishes the `main` branch at `/`. `.nojekyll` enables plain static
 serving. Keep paths relative so all pages work under the `/pivessa/` project URL.
